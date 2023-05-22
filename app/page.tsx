@@ -24,19 +24,20 @@ const HomePage = async () => {
           <h2 className="headline mt-24 text-2xl md:text-4xl lg:text-5xl">
             Hizmetler
           </h2>
-          <span className="mt-4 block text-lg font-bold text-off-black dark:text-off-white md:text-2xl">
+          <span className="mt-4 block list-none text-lg font-bold text-off-black dark:text-off-white md:text-2xl">
             <ul>
-              Cloud üzerinde CI/CD ve Container teknolojileri ile hizmet
-              sağlıyorum.
+              <li>
+                Cloud üzerinde CI/CD ve Container teknolojileri ile hizmet
+                sağlıyorum.
+              </li>
+              <br></br>
+              <li>
+                Frontend arayüz geliştirmeleri ve responsive design tasarımları
+                yapıyorum.
+              </li>
+              <br></br>
+              <li> Backend, sunucu ve API ile entegrasyonlar sağlıyorum.</li>
             </ul>
-            <br></br>
-            <ul>
-              Frontend arayüz geliştirmeleri ve responsive design tasarımları
-              yapıyorum.
-            </ul>
-            <br></br>
-
-            <li> Backend, sunucu ve API ile entegrasyonlar sağlıyorum.</li>
           </span>
         </Container>
       </section>
