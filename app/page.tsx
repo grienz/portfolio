@@ -2,7 +2,7 @@ import { AnimatePage } from '@components/AnimatePage'
 import { Container } from '@components/Container'
 import { HeroSection } from '@components/HeroSection'
 export const metadata = {
-  title: 'Yazılım geliştirici ve öğrenci Güray ALIN',
+  title: 'Anasayfa',
   description: 'Typescript & React odaklı geliştirmeler yapıyorum.',
   keywords: [
     'Software Developer',

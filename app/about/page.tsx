@@ -8,7 +8,7 @@ import { mockJobs, mockSchool } from '@mockdata'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Güray ALIN, Yazılım geliştirici ve öğrenci',
+  title: 'Hakkında',
   description: 'İnterneti daha iyi bir yer yapmak için çalışıyorum.'
 }
 
