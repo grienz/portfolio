@@ -12,17 +12,5 @@ export const mockJobs: Job[] = [
     toDate: '2022-08',
     skills: ['TypeScript', 'React', 'Next.js'],
     description: ''
-  },
-  {
-    company: {
-      name: 'Yaz Stajı',
-      logo: '/assets/logo/sanal.png',
-      url: 'https://www.sanalnet.com/'
-    },
-    jobTitle: 'Stajyer',
-    fromDate: '2016-06',
-    toDate: '2016-09',
-    skills: ['HTML', 'CSS', 'JS'],
-    description: ''
   }
 ]
