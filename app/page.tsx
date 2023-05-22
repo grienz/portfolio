@@ -25,15 +25,15 @@ const HomePage = async () => {
             Hizmetler
           </h2>
           <span className="mt-4 block text-lg font-bold text-off-black dark:text-off-white md:text-2xl">
-            <li>
+            <ul>
               Cloud üzerinde CI/CD ve Container teknolojileri ile hizmet
               sağlıyorum.
-            </li>
+            </ul>
             <br></br>
-            <li>
+            <ul>
               Frontend arayüz geliştirmeleri ve responsive design tasarımları
               yapıyorum.
-            </li>
+            </ul>
             <br></br>
 
             <li> Backend, sunucu ve API ile entegrasyonlar sağlıyorum.</li>

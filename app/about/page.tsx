@@ -29,7 +29,7 @@ const AboutPage = async () => {
           kullanmaya çalışırım.
         </p>
         <p>
-          Bulut teknolojileri, konteynırlar, sanallaştırma, güvenlik konularında
+          Bulut teknolojileri, konteynerlar, sanallaştırma, güvenlik konularında
           ve sunucu yönetimi alanında kendimi geliştiriyorum.
         </p>
         <p>
