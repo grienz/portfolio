@@ -38,7 +38,7 @@ const AboutPage = async () => {
         </p>
         <h2 className="headline mb-4 mt-12 text-4xl">Yetenekler</h2>
         <p className="mb-6">
-          2021 Sonunda başladığım kendi kendine öğrenme serüveni aşağıda ki
+          2021 Sonunda başladığım kendi kendine öğrenme serüveni aşağıdaki
           teknolojiler ile devam ediyor.
           <br></br>
           <br></br>
@@ -49,8 +49,14 @@ const AboutPage = async () => {
           <hr></hr>
           <br></br>
           <ul>
-            <strong>Linux</strong> - kişisel bilgisayarımda "Fedora" sürümünü
+            <strong>Linux</strong> - Kişisel bilgisayarımda "Fedora" sürümünü
             kullanıyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>Git</strong> - Her projemi git ile github reposunda
+            yayınlıyorum. "Actions", "Workflow" gibi konuları öğreniyorum.
           </ul>
           <hr></hr>
           <br></br>

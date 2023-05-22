@@ -21,25 +21,32 @@ const HomePage = async () => {
       <HeroSection />
       <section id="services">
         <Container>
-          <h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
+          <h2 className="headline mt-24 text-2xl md:text-4xl lg:text-5xl">
             Hizmetler
-            <span className="mt-4 block text-lg font-bold text-off-black dark:text-off-white md:text-2xl">
-              - Bulut sunucu üzerinde sürdülebilir çözümlerle CI/CD ve Container
-              teknolojileri içinde servis hizmeti sağlıyorum.
-            </span>
-            <span className="mt-4 block text-lg font-bold text-off-black dark:text-off-white md:text-2xl">
-              - Frontend arayüz geliştirmeleri yapıyorum.
-            </span>
           </h2>
+          <span className="mt-4 block text-lg font-bold text-off-black dark:text-off-white md:text-2xl">
+            <li>
+              Cloud üzerinde CI/CD ve Container teknolojileri ile hizmet
+              sağlıyorum.
+            </li>
+            <br></br>
+            <li>
+              Frontend arayüz geliştirmeleri ve responsive design tasarımları
+              yapıyorum.
+            </li>
+            <br></br>
+
+            <li> Backend, sunucu ve API ile entegrasyonlar sağlıyorum.</li>
+          </span>
         </Container>
       </section>
-      <section id="tools" className="my-40">
+      <section id="tools" className="my-50">
         <Container>
           <h2 className="headline mt-24 text-center text-xl md:text-2xl lg:text-3xl">
             Powered by Vercel
           </h2>
           <div className="mx-auto mt-8 flex w-32 max-w-5xl flex-wrap items-center justify-center gap-x-16 gap-y-8">
-            <ul
+            <span
               className="text-2xl opacity-70 transition hover:opacity-100"
               key="Vercel"
             >
@@ -64,7 +71,7 @@ const HomePage = async () => {
                   </svg>
                 }
               </a>
-            </ul>
+            </span>
           </div>
         </Container>
       </section>

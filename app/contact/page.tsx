@@ -14,6 +14,9 @@ const ContactPage = () => {
         <h1 className="headline mt-8 text-3xl md:text-5xl lg:text-6xl">
           Contact
         </h1>
+        <span className="mt-4 block text-lg font-bold text-off-black dark:text-off-white md:text-2xl">
+          <p>Yakında aktif olacak.</p>
+        </span>
         <ContactForm />
       </Container>
     </AnimatePage>

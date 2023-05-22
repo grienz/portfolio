@@ -14,7 +14,7 @@ export const HeroSection = () => {
 
   return (
     <section id="hero" className="relative isolate overflow-hidden pt-14">
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-off-white dark:from-slate-950 sm:h-32" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-24 from-off-white dark:from-slate-950 sm:h-32" />
       <div
         className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] dark:shadow-slate-700 sm:-mr-80 lg:-mr-96 lg:shadow-xl"
         aria-hidden="true"
@@ -28,9 +28,15 @@ export const HeroSection = () => {
             <p className="text-lg leading-8 text-slate-600 dark:text-off-white">
               Yazılım ve Web alanında kendini geliştiren, sürdürülebilirlik ve
               güvenlik odaklı projeler geliştirmeyi hedefleyen bir öğrenciyim.
-              <br />
-              Bu konular hakkında konuşabiliriz <TypeWriter strings={Skills} />.
             </p>
+            <br></br>
+            <p className="text-lg leading-8 text-slate-600 dark:text-off-white">
+              Bu konular hakkında konuşabiliriz;{' '}
+              <strong className="text-xl font-black">
+                <TypeWriter strings={Skills} />
+              </strong>
+            </p>
+            <br></br>
             <p className="text-lg leading-8 text-slate-600 dark:text-off-white">
               Bu websitesi açık kaynaklı projedir buradan erişebilirsiniz{' '}
               <a
@@ -65,11 +71,11 @@ export const HeroSection = () => {
             height={300}
             width={450}
             loading="eager"
-            className="mt-10 aspect-[6/5] max-w-full rounded-2xl object-cover sm:mt-16 lg:ml-20 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-24"
+            className="mt-12 aspect-[6/5] max-w-full rounded-2xl object-cover sm:mt-16 lg:ml-20 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-24"
           />
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-off-white dark:from-slate-950 sm:h-32" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-24  from-off-white dark:from-slate-950 sm:h-32" />
     </section>
   )
 }
