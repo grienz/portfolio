@@ -6,11 +6,8 @@ import '@styles/globals.css'
 import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react'
-import getConfig from 'next/config'
 
-const { publicRuntimeConfig, serverRuntimeConfig } = getConfig()
-const trackingId: string =
-  publicRuntimeConfig.TRACKING_ID || serverRuntimeConfig.TRACKING_ID
+const trackingId = process.env.TRACKING_ID
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
