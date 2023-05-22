@@ -36,6 +36,49 @@ const AboutPage = async () => {
           İnterneti daha iyi bir yer yapmak için veri güvenliğinin herkes
           tarafından öğrenilmesi gerektiğine inanıyorum.
         </p>
+        <h2 className="headline mb-4 mt-12 text-4xl">Yetenekler</h2>
+        <p className="mb-6">
+          2021 Sonunda başladığım kendi kendine öğrenme serüveni aşağıda ki
+          teknolojiler ile devam ediyor.
+          <br></br>
+          <br></br>
+          <ul>
+            <strong>İngilizce</strong> - B1 seviyesinde sınıflandırıyorum en
+            yakında zamanda "IELTS" sınavında derecemi öğrenmek istiyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>Linux</strong> - kişisel bilgisayarımda "Fedora" sürümünü
+            kullanıyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>Docker</strong>- Hali hazırda olan projeleri "Docker" içinde
+            çalıştırabiliyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>Golang</strong> - Daha yeni öğrenmeye başladım,
+            "Microservice" mimarisi için servis yazmayı öğreniyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>Typescript</strong> - Aktif olarak bu sitede kullandığım
+            "Javascript" için vazgeçilmez.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>React</strong> - Yeni çıkan "Frameworkler" ile birlikte
+            öğrenmeye devam ediyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+        </p>
         <h2 className="headline mb-4 mt-12 text-4xl">Hobi ve ilgi alanlarım</h2>
         <p className="mb-6">
           Spor yapmayı, satranç oynamayı ve felsefe/psikoloji/tarih
