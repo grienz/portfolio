@@ -67,6 +67,18 @@ const AboutPage = async () => {
           <hr></hr>
           <br></br>
           <ul>
+            <strong>MongoDB</strong> - Küçük ölçekli projelerde çok iyi işler
+            çıkarıyor, kullanmayı seviyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>PostgreSQL</strong> - SQL database kullanımında daha
+            yeniyim, projelerimde kullanmayı hedefliyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
             <strong>Typescript</strong> - Aktif olarak bu sitede kullandığım
             "Javascript" için vazgeçilmez.
           </ul>
@@ -75,6 +87,20 @@ const AboutPage = async () => {
           <ul>
             <strong>React</strong> - Yeni çıkan "Frameworkler" ile birlikte
             öğrenmeye devam ediyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>NextJS</strong> - React için "Vercel" tarafından
+            geliştirilmiş "Full-Stack framework" bu projede de kullandım. NextJS
+            ile geliştirme yapmayı seviyorum.
+          </ul>
+          <hr></hr>
+          <br></br>
+          <ul>
+            <strong>TailwindCSS</strong> - Module CSS yerine tercih
+            edilecebilecek en iyi "framework". Hızlı geliştirme yapanlar için
+            tavsiye ediyorum.
           </ul>
           <hr></hr>
           <br></br>
