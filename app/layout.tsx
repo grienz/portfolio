@@ -82,8 +82,8 @@ export const metadata: Metadata = {
   colorScheme: 'dark',
   generator: 'Next.js',
   openGraph: {
-    title: 'Güray ALIN',
-    description: 'Yazılım Geliştirici',
+    title: '',
+    description: '',
     url: 'https://grienz.dev',
     siteName: "Güray ALIN'ın portfolyo websitesi.",
     locale: 'tr_TR',

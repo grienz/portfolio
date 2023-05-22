@@ -86,7 +86,7 @@ const AboutPage = async () => {
           içeriği severek izlerim/takip ederim. House/Techno ve klasik müzik
           dinlemeyi severim.
         </p>
-        <h2 className="headline mb-4 mt-12 text-4xl">Deneylimler</h2>
+        <h2 className="headline mb-4 mt-12 text-4xl">Deneyimler</h2>
         <p className="mb-6">
           Genellikle kendi geliştirdiğim projeler üzerinde çalıştım. Daha iyi iş
           fırsatları için kendimi geliştiriyorum.

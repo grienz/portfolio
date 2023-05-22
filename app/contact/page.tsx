@@ -3,7 +3,7 @@ import { Container } from '@components/Container'
 import { ContactForm } from '@components/ContactForm'
 
 export const metadata = {
-  title: 'İletişim Güray ALIN - Yazılım geliştirici',
+  title: 'İletişim',
   description: 'Web alanında geliştirmeler için iletişime geçebilirisiniz.'
 }
 
