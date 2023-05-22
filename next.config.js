@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  publicRuntimeConfig: {
+    TRACKING_ID: process.env.TRACKING_ID || ''
+  },
+  serverRuntimeConfig: {
+    TRACKING_ID: process.env.TRACKING_ID || ''
+  },
   swcMinify: true,
   async redirects() {
     return [

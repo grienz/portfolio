@@ -6,6 +6,11 @@ import '@styles/globals.css'
 import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react'
+import getConfig from 'next/config'
+
+const { publicRuntimeConfig, serverRuntimeConfig } = getConfig()
+const trackingId: string =
+  publicRuntimeConfig.TRACKING_ID || serverRuntimeConfig.TRACKING_ID
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
@@ -19,6 +24,29 @@ export default function RootLayout({ children }: PropsWithChildren) {
           sizes="32x32"
           href="/assets/icons/favicon.svg"
         />
+
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        {/* Necessary to prevent error: window.gtag is not defined for Next.js-hydration */}
+        {trackingId && (
+          <>
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${trackingId}', {
+              page_path: window.location.pathname,
+            });
+          `
+              }}
+            />
+          </>
+        )}
       </head>
       <body className={`${inter.variable} bg-off-white dark:bg-slate-950`}>
         <div className="pointer-events-none absolute my-auto w-full max-w-[1920px] overflow-hidden md:top-[%90]">
