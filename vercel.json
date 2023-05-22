@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/portfolio", "destination": "/about" },
+    { "source": "/cv", "destination": "/about" }
+  ]
+}
