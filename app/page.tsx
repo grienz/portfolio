@@ -22,26 +22,28 @@ const HomePage = async () => {
       <section id="services">
         <Container>
           <h2 className="headline mt-24 text-2xl md:text-4xl lg:text-5xl">
-            Hizmetler
+            Beceriler
           </h2>
           <span className="mt-4 block list-none text-lg font-bold text-off-black dark:text-off-white md:text-2xl">
             <ul>
               <li>
-                Cloud üzerinde CI/CD ve Container teknolojileri ile hizmet
-                sağlıyorum.
+                Cloud üzerinde CI/CD ve Container teknolojilerini
+                kullanabiliyorum.
               </li>
               <br></br>
               <li>
                 Frontend arayüz geliştirmeleri ve responsive design tasarımları
-                yapıyorum.
+                yapabiliyorum.
               </li>
               <br></br>
-              <li> Backend, sunucu ve API ile entegrasyonlar sağlıyorum.</li>
+              <li>
+                Backend, sunucu ve API ile entegrasyonlar sağlayabiliyorum.
+              </li>
             </ul>
           </span>
         </Container>
       </section>
-      <section id="tools" className="my-50">
+      <section id="tools" className="my-56">
         <Container>
           <h2 className="headline mt-24 text-center text-xl md:text-2xl lg:text-3xl">
             Powered by Vercel

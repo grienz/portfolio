@@ -3,13 +3,14 @@ import Link from 'next/link'
 import { TypeWriter } from '@components/TypeWriter'
 export const HeroSection = () => {
   const Skills = [
-    'React',
     'TypeScript',
+    'React',
     'Next.js',
-    'REST API',
     'Golang',
     'Linux',
-    'Docker'
+    'Docker',
+    'Cloud',
+    'REST API'
   ]
 
   return (
@@ -31,11 +32,11 @@ export const HeroSection = () => {
             </p>
             <br></br>
             <p className="text-lg leading-8 text-slate-600 dark:text-off-white">
-              Bu konular hakkında konuşabiliriz;{' '}
-              <strong className="text-xl font-black">
-                <TypeWriter strings={Skills} />
-              </strong>
+              Bu konular hakkında konuşabiliriz;
             </p>
+            <strong className="text-xl font-black leading-8 text-slate-600 dark:text-off-white">
+              <TypeWriter strings={Skills} />
+            </strong>
             <br></br>
             <p className="text-lg leading-8 text-slate-600 dark:text-off-white">
               Bu websitesi açık kaynaklı projedir buradan erişebilirsiniz{' '}
