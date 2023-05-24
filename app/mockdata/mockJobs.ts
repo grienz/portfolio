@@ -7,7 +7,7 @@ export const mockJobs: Job[] = [
       logo: '/assets/logo/eva.png',
       url: 'https://evasmartshower.vercel.app/'
     },
-    jobTitle: 'Software Developer',
+    jobTitle: 'Web Geliştirici',
     fromDate: '2022-05',
     toDate: '2022-08',
     skills: ['TypeScript', 'React', 'Next.js'],
