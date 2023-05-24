@@ -1,8 +1,6 @@
 # Güray ALIN
 
-[![website](https://img.shields.io/github/actions/workflow/status/grienz/portfolio/ci.yaml?label=grienz.dev&logo=vercel&logoColor=default)](https://grienz.dev)
-
-[![website](https://img.shields.io/website?url=https%3A%2F%2Fgrienz.dev)](https://grienz.dev)
+[![website](https://img.shields.io/website?url=https%3A%2F%2Fgrienz.dev?label=grienz.dev&logo=vercel&logoColor=default)](https://grienz.dev)
 
 ---
 
