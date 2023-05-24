@@ -36,9 +36,7 @@ const HomePage = async () => {
                 yapabiliyorum.
               </li>
               <br></br>
-              <li>
-                Backend, sunucu ve API ile entegrasyonlar sağlayabiliyorum.
-              </li>
+              <li>Backend, sunucu ve API ile entegrasyonlar sağlıyorum.</li>
             </ul>
           </span>
         </Container>

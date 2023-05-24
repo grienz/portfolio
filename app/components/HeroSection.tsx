@@ -27,8 +27,9 @@ export const HeroSection = () => {
           </h1>
           <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
             <p className="text-lg leading-8 text-slate-600 dark:text-off-white">
-              Yazılım ve Web alanında kendini geliştiren, sürdürülebilirlik ve
-              güvenlik odaklı projeler geliştirmeyi hedefleyen bir öğrenciyim.
+              Yazılım ve web tasarım alanında kendini geliştiren,
+              sürdürülebilirlik ve güvenlik odaklı projeler oluşturmayı
+              hedefleyen, öz disipline sahip bir öğrenciyim.
             </p>
             <br></br>
             <p className="text-lg leading-8 text-slate-600 dark:text-off-white">

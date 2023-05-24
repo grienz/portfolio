@@ -1,6 +1,6 @@
 import { AnimatePage } from '@components/AnimatePage'
-/* import { Button } from '@components/Button'
-import { IconDownload } from '@components/Icons' */
+import { Button } from '@components/Button'
+import { IconDownload } from '@components/Icons'
 import { Container } from '@components/Container'
 import { Education } from '@components/Education'
 import { WorkExperience } from '@components/WorkExperience'
@@ -23,28 +23,28 @@ const AboutPage = async () => {
           Yazılım Geliştirici - Öğrenci
         </h2>
         <p className="mt-8">
-          1998 yılında Bursa'da doğdum. Bilgisayar ve internet ile erken tanışıp
-          bu alanda kendini geliştiren biriyim. Web ve sunucu alanlarına
-          yakından ilgiliyim, yeni teknolojileri takip ederim ve kullanmaya
-          çalışırım.
+          1998 yılında Bursa'da doğdum. Yazılım ve web tasarım alanında kendini
+          geliştiren, sürdürülebilirlik ve güvenlik odaklı projeler oluşturmayı
+          hedefleyen, öz disipline sahip bir öğrenciyim. Yeni teknolojileri
+          takip ederim ve kullanmaya çalışırım.
         </p>
         <p>
           Bulut teknolojileri, konteynerler, sanallaştırma, güvenlik konularında
-          ve sunucu yönetimi alanında kendimi geliştiriyorum.
+          çalışmalar yapıyorum.
         </p>
         <p>
-          İnterneti daha iyi bir yer yapmak için veri güvenliğinin herkes
-          tarafından öğrenilmesi gerektiğine inanıyorum.
+          İnterneti daha iyi bir yer yapmak için veri güvenliğinin öğrenilmesi
+          gerektiğine inanıyorum.
         </p>
         <h2 className="headline mb-4 mt-12 text-4xl">Yetenekler</h2>
         <p className="mb-6 list-none">
-          2021 Sonunda başladığım kendi kendine öğrenme serüveni aşağıdaki
-          teknolojiler ile devam ediyor.
+          Web ve sunucu alanlarında 2021'de başladığım öğrenme sürecine
+          "Front-end" alanında devam etmekteyim.
         </p>
         <ul className="mt-4">
           <li>
-            <strong>İngilizce</strong> - B1 seviyesinde sınıflandırıyorum en
-            yakında zamanda "IELTS" sınavında derecemi öğrenmek istiyorum.
+            <strong>İngilizce</strong> - B1 seviyesinde"IELTS" sınavına
+            hazırlanıyorum.
           </li>
           <br></br>
           <li>
@@ -54,7 +54,8 @@ const AboutPage = async () => {
           <br></br>
           <li>
             <strong>Git</strong> - Her projemi git ile github reposunda
-            yayınlıyorum. "Actions", "Workflow" gibi konuları öğreniyorum.
+            yayınlıyorum. "Actions", "Workflow" konuları üzerinde çalışmalarımı
+            sürdürüyorum.
           </li>
           <br></br>
           <li>
@@ -64,12 +65,12 @@ const AboutPage = async () => {
           <br></br>
           <li>
             <strong>Golang</strong> - Daha yeni öğrenmeye başladım,
-            "Microservice" mimarisi için servis yazmayı öğreniyorum.
+            "Microservice" mimarisi için servis yazmayı hedefliyorum.
           </li>
           <br></br>
           <li>
             <strong>MongoDB</strong> - Küçük ölçekli projelerde çok iyi işler
-            çıkarıyor, kullanmayı seviyorum.
+            çıkarıyor. Bireysel projelerimde kullanıyorum.
           </li>
           <br></br>
           <li>
@@ -78,46 +79,37 @@ const AboutPage = async () => {
           </li>
           <br></br>
           <li>
-            <strong>Typescript</strong> - Aktif olarak bu sitede kullandığım
-            "Javascript" için vazgeçilmez bir dil.
+            <strong>Typescript</strong> - Aktif olarak bu sitede de kullandığım,
+            projelerimde "Javascript" yazarken kullanıyorum.
           </li>
           <br></br>
           <li>
-            <strong>React</strong> - Yeni çıkan "Frameworkler" ile birlikte
-            öğrenmeye devam ettiğim kütüphane.
+            <strong>React</strong> - "Framework" ile birlikte çalışmaya devam
+            ettiğim kütüphane. NextJS ile kullanıyorum.
           </li>
           <br></br>
           <li>
             <strong>NextJS</strong> - React için "Vercel" tarafından
             geliştirilmiş "Full-Stack framework" bu projede de kullandım. NextJS
-            ile geliştirme yapmayı seviyorum.
+            ile geliştirme yapabiliyorum.
           </li>
           <br></br>
           <li>
-            <strong>TailwindCSS</strong> - Module CSS yerine tercih
-            edilecebilecek en iyi "framework". Hızlı geliştirme yapanlar için
-            tavsiye ediyorum.
+            <strong>TailwindCSS</strong> - Module CSS ile beraber kullandığım,
+            hızlı geliştirmeler yaparken tercih ediyorum.
           </li>
         </ul>
         <br></br>
         <h2 className="headline mb-4 mt-12 text-4xl">Hobi ve ilgi alanlarım</h2>
         <p className="mb-6">
-          Spor yapmayı, satranç oynamayı ve felsefe/psikoloji/tarih
-          alanınlarında okumalar yapmayı severim. Bilim kurgu türünde çoğu
-          içeriği severek takip ederim. House, techno ve klasik müzik dinlemeyi
-          severim.
+          Felsefe, tarih ve psikoloji kitapları okurum. Düzenli spor yapar ve
+          satranç oynarım. Bilim kurgu türünde çoğu içeriği severek takip
+          ederim. House/techno türünde müzik dinlemeyi severim.
         </p>
-        <h2 className="headline mb-4 mt-12 text-4xl">Deneyimler</h2>
-        <p className="mb-6">
-          Genellikle kendi geliştirdiğim projeler üzerinde çalıştım. Daha iyi iş
-          olanakları için kendimi geliştiriyorum.
-        </p>
+        <h2 className="headline mb-6 mt-12 text-4xl">Deneyimler</h2>
+
         <WorkExperience jobs={mockJobs} />
-        <h2 className="headline mb-4 mt-12 text-4xl">Eğitim</h2>
-        <p className="mb-6">
-          Kendi kendine öğrenmeyi ve gelişmeyi prensip haline getirmiş, öz
-          disipline sahip biriyim.
-        </p>
+        <h2 className="headline mb-6 mt-12 text-4xl">Eğitim</h2>
         <Education education={[mockSchool]} />
         <section id="cv-download">
           <h2 className="headline mb-4 mt-12 text-4xl">Daha fazla detay</h2>
@@ -126,6 +118,7 @@ const AboutPage = async () => {
             Buraya kadar okuduğunuz için teşekkürler. Daha fazla bilgi ve detay
             için iletişime geçebilirsiniz.
           </p>
+          <br></br>
           <p>
             Benimle iletişime geçmek için{' '}
             <Link
@@ -137,16 +130,17 @@ const AboutPage = async () => {
             doldurabilirsiniz veya sosyal medya üzerinden de ulaşabilirsiniz.
           </p>
 
-          {/*           <div className="mt-8 flex items-baseline justify-start gap-6">
+          <div className="mt-8 flex items-baseline justify-start gap-6">
             <Button
-              href="/assets/cv-2023.pdf"
+              href="https://drive.google.com/file/d/1W5Uk6wV6ouJgYhx9BoIONkvJLHc_JWoM/view?usp=drivesdk"
+              target="_blank"
               download={true}
               className="group flex gap-2 whitespace-nowrap"
             >
               <IconDownload />
-              CV indir
+              CV
             </Button>
-          </div> */}
+          </div>
         </section>
       </Container>
     </AnimatePage>
