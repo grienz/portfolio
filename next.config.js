@@ -15,12 +15,12 @@ const nextConfig = {
       },
       {
         source: '/resume',
-        destination: '/cv-2023.pdf',
+        destination: process.env.CV_LINK,
         permanent: true
       },
       {
         source: '/cv',
-        destination: '/cv-2023.pdf',
+        destination: process.env.CV_LINK,
         permanent: true
       }
     ]

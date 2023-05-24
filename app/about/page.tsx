@@ -7,6 +7,7 @@ import { WorkExperience } from '@components/WorkExperience'
 import { mockJobs, mockSchool } from '@mockdata'
 import Link from 'next/link'
 
+const CvLink = process.env.CV_LINK
 export const metadata = {
   title: 'Hakkında',
   description: 'İnterneti daha iyi bir yer yapmak için çalışıyorum.'
@@ -43,7 +44,7 @@ const AboutPage = async () => {
         </p>
         <ul className="mt-4">
           <li>
-            <strong>İngilizce</strong> - B1 seviyesinde"IELTS" sınavına
+            <strong>İngilizce</strong> - B1 seviyesinde "IELTS" sınavına
             hazırlanıyorum.
           </li>
           <br></br>
@@ -132,7 +133,7 @@ const AboutPage = async () => {
 
           <div className="mt-8 flex items-baseline justify-start gap-6">
             <Button
-              href="https://drive.google.com/file/d/1W5Uk6wV6ouJgYhx9BoIONkvJLHc_JWoM/view?usp=drivesdk"
+              href={CvLink}
               target="_blank"
               download={true}
               className="group flex gap-2 whitespace-nowrap"
