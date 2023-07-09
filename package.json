@@ -6,12 +6,12 @@
   "private": true,
   "author": {
     "name": "Güray ALIN",
-    "email": "grienzdev@gmail.com",
+    "email": "gurayalinn@gmail.com",
     "url": "https://grienz.dev/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/grienz/portfolio"
+    "url": "https://github.com/gurayalinn/portfolio"
   },
   "engines": {
     "node": ">=18.0.0"

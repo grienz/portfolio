@@ -12,4 +12,4 @@ NextJS ile yaptığım 2. projem.
 
 ---
 
-[![GitHub](https://img.shields.io/github/license/grienz/portfolio)](https://github.com/grienz/portfolio/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/gurayalinn/portfolio)](https://github.com/gurayalinn/portfolio/blob/master/LICENSE)

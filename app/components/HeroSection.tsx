@@ -42,7 +42,7 @@ export const HeroSection = () => {
             <p className="text-lg leading-8 text-slate-600 dark:text-off-white">
               Bu websitesi açık kaynaklı projedir buradan erişebilirsiniz{' '}
               <a
-                href="https://github.com/grienz/portfolio"
+                href="https://github.com/gurayalinn/portfolio"
                 title="Github reposu"
                 target="_blank"
                 rel="noopener noreferrer"
